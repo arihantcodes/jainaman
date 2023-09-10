@@ -91,12 +91,12 @@ body {
   margin-top: 20px;
   margin-left: 120px;
   width: 300px;
-  color: #808dad;
+  color: white;
   font-weight: 400;
 }
 #aboutme {
   /* width: 10vw; */
-  color: #808dad;
+  color: white;
   line-height: 30px;
   margin-left: 120px;
 }
@@ -761,6 +761,7 @@ button {
     display: block;
   }
   #aboutme{
+    color: white;
     width: 70vw;
     margin-left:55px;
     line-height: 25px;
@@ -807,7 +808,7 @@ button {
     
     }
     .col-lg-5{
-    margin-left:70%;
+    margin-left:60%;
     margin-top:-13% ;
     } 
 }
