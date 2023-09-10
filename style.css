@@ -95,6 +95,7 @@ body {
   font-weight: 400;
 }
 #aboutme {
+  /* width: 10vw; */
   color: #808dad;
   line-height: 30px;
   margin-left: 120px;
@@ -702,11 +703,18 @@ button {
 }
 
 @media only screen and (max-width: 1000px) {
+  body{
+    width: 80vw;
+  }
+  .herocontent{
+    width: 300px;
+  }
   .nav {
     display: block;
     margin-left: 20%;
   }
   .navitem {
+    gap: 50px;
     flex-direction: column;
     margin-left: 79%;
     /* overflow-y: hidden; */
@@ -752,12 +760,31 @@ button {
   .burger {
     display: block;
   }
+  #aboutme{
+    width: 70vw;
+    margin-left:55px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+  .mt4{
+    margin-left: 54px;
+  }
+  .hel{
+    margin-left: 65px;
+  }
+  .mt2{
+    margin-left: 55px;
+  }
+  form{
+    width: 370px;
+    margin-left: 10px;
+  }
 
   .v-class {
     opacity: 0;
   }
   .linkdin {
-    margin-left: -50px;
+    margin-left: -22px;
   }
   .col-lg-4{
     margin-top: 0;
@@ -766,6 +793,9 @@ button {
   .col-lg-5{
     margin-top: 0;
     margin-left: 0;
+  }
+  .foot{
+    margin-left: 23px;
   }
 
 }
