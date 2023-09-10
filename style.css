@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+ html{
+  scroll-behavior: smooth;
+} 
 body {
   padding: 0;
   margin: 0;
@@ -24,6 +27,7 @@ body {
   margin-top: -32px;
 }
 .header {
+
   width: 100vw;
   height: 94px;
   line-height: 80px;
