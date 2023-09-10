@@ -295,6 +295,8 @@ ul {
 }
 
 form{
+
+  width: 400px;
   color: white;
   display: flex;
   /* flex-direction: column; */
@@ -757,7 +759,30 @@ button {
   .linkdin {
     margin-left: -50px;
   }
+  .col-lg-4{
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .col-lg-5{
+    margin-top: 0;
+    margin-left: 0;
+  }
+
 }
+@media only screen and (min-width: 1001px){
+  .col-lg-4{
+    margin-top: 12%;
+    margin-left: 12%;
+    
+    }
+    .col-lg-5{
+    margin-left:70%;
+    margin-top:-13% ;
+    } 
+}
+
+ 
+
 a{
 /* color: #01d293; */
   text-decoration: none;
@@ -768,3 +793,17 @@ a{
 .itz:hover{
   fill: #01d293;
 }
+.foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #01d293 */
+  
+}
+.foot p{
+  color:white;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+
